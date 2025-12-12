@@ -16,12 +16,9 @@ import requests
 from bs4 import BeautifulSoup
 
 
-# === 配置信息（已根据需求硬编码）===
+# === 配置信息（已根据需求编码）===
 # Excel看板路径
 EXCEL_PATH = r"F:\SEMESTER A\5507\5507PTT\工作簿1.xlsx"
-# 登录信息
-LOGIN_ID = "TIANTU"
-LOGIN_PWD = "030227"
 # 存储路径
 STORAGE_DIR = r"F:\SEMESTER A\5507\5507PTT\看板数据"
 # 输出文件名称
@@ -637,3 +634,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
